@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03C631A1-595B-47EF-B1F3-BB06CB16160E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SKBounceAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F599A2F-35E1-406D-B7A6-E22FEEF7CA51</key>
+		<string>ssh://github.com/Sellegit/SKBounceAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SKBounceAnimation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F599A2F-35E1-406D-B7A6-E22FEEF7CA51</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Sellegit/SKBounceAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F599A2F-35E1-406D-B7A6-E22FEEF7CA51</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F599A2F-35E1-406D-B7A6-E22FEEF7CA51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SKBounceAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

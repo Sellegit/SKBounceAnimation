@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		30501CBB1977A8C400232548 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30501CBC1977A8C400232548 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				30501CBF1977A95200232548 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		30501C931977A88600232548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30501C921977A88600232548 /* Foundation.framework */; };
+		30501CA11977A88600232548 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30501CA01977A88600232548 /* XCTest.framework */; };
+		30501CA21977A88600232548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30501C921977A88600232548 /* Foundation.framework */; };
+		30501CA41977A88600232548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30501CA31977A88600232548 /* UIKit.framework */; };
+		30501CA71977A88600232548 /* libSKBounceAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30501C8F1977A88600232548 /* libSKBounceAnimation.a */; };
+		30501CAD1977A88600232548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30501CAB1977A88600232548 /* InfoPlist.strings */; };
+		30501CAF1977A88600232548 /* SKBounceAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30501CAE1977A88600232548 /* SKBounceAnimationTests.m */; };
+		30501CBA1977A8A800232548 /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 30501CB91977A8A800232548 /* SKBounceAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30501CA51977A88600232548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30501C871977A88600232548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30501C8E1977A88600232548;
+			remoteInfo = SKBounceAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30501C8D1977A88600232548 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30501C8F1977A88600232548 /* libSKBounceAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKBounceAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30501C921977A88600232548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30501C961977A88600232548 /* SKBounceAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKBounceAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		30501C9F1977A88600232548 /* SKBounceAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKBounceAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30501CA01977A88600232548 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30501CA31977A88600232548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		30501CAA1977A88600232548 /* SKBounceAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKBounceAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		30501CAC1977A88600232548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30501CAE1977A88600232548 /* SKBounceAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimationTests.m; sourceTree = "<group>"; };
+		30501CB81977A8A800232548 /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = SOURCE_ROOT; };
+		30501CB91977A8A800232548 /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30501C8C1977A88600232548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30501C931977A88600232548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30501C9C1977A88600232548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30501CA11977A88600232548 /* XCTest.framework in Frameworks */,
+				30501CA41977A88600232548 /* UIKit.framework in Frameworks */,
+				30501CA71977A88600232548 /* libSKBounceAnimation.a in Frameworks */,
+				30501CA21977A88600232548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30501C861977A88600232548 = {
+			isa = PBXGroup;
+			children = (
+				30501C941977A88600232548 /* SKBounceAnimation */,
+				30501CA81977A88600232548 /* SKBounceAnimationTests */,
+				30501C911977A88600232548 /* Frameworks */,
+				30501C901977A88600232548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30501C901977A88600232548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30501C8F1977A88600232548 /* libSKBounceAnimation.a */,
+				30501C9F1977A88600232548 /* SKBounceAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30501C911977A88600232548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30501C921977A88600232548 /* Foundation.framework */,
+				30501CA01977A88600232548 /* XCTest.framework */,
+				30501CA31977A88600232548 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30501C941977A88600232548 /* SKBounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				30501CB81977A8A800232548 /* SKBounceAnimation.h */,
+				30501CB91977A8A800232548 /* SKBounceAnimation.m */,
+				30501C951977A88600232548 /* Supporting Files */,
+			);
+			path = SKBounceAnimation;
+			sourceTree = "<group>";
+		};
+		30501C951977A88600232548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30501C961977A88600232548 /* SKBounceAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30501CA81977A88600232548 /* SKBounceAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				30501CAE1977A88600232548 /* SKBounceAnimationTests.m */,
+				30501CA91977A88600232548 /* Supporting Files */,
+			);
+			path = SKBounceAnimationTests;
+			sourceTree = "<group>";
+		};
+		30501CA91977A88600232548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30501CAA1977A88600232548 /* SKBounceAnimationTests-Info.plist */,
+				30501CAB1977A88600232548 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30501C8E1977A88600232548 /* SKBounceAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30501CB21977A88600232548 /* Build configuration list for PBXNativeTarget "SKBounceAnimation" */;
+			buildPhases = (
+				30501C8B1977A88600232548 /* Sources */,
+				30501C8C1977A88600232548 /* Frameworks */,
+				30501C8D1977A88600232548 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKBounceAnimation;
+			productName = SKBounceAnimation;
+			productReference = 30501C8F1977A88600232548 /* libSKBounceAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		30501C9E1977A88600232548 /* SKBounceAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30501CB51977A88600232548 /* Build configuration list for PBXNativeTarget "SKBounceAnimationTests" */;
+			buildPhases = (
+				30501C9B1977A88600232548 /* Sources */,
+				30501C9C1977A88600232548 /* Frameworks */,
+				30501C9D1977A88600232548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30501CA61977A88600232548 /* PBXTargetDependency */,
+			);
+			name = SKBounceAnimationTests;
+			productName = SKBounceAnimationTests;
+			productReference = 30501C9F1977A88600232548 /* SKBounceAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30501C871977A88600232548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sellegit;
+			};
+			buildConfigurationList = 30501C8A1977A88600232548 /* Build configuration list for PBXProject "SKBounceAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30501C861977A88600232548;
+			productRefGroup = 30501C901977A88600232548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30501C8E1977A88600232548 /* SKBounceAnimation */,
+				30501C9E1977A88600232548 /* SKBounceAnimationTests */,
+				30501CBB1977A8C400232548 /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30501C9D1977A88600232548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30501CAD1977A88600232548 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30501CBF1977A95200232548 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target SKBounceAnimation ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target SKBounceAnimation -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30501C8B1977A88600232548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30501CBA1977A8A800232548 /* SKBounceAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30501C9B1977A88600232548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30501CAF1977A88600232548 /* SKBounceAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30501CA61977A88600232548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30501C8E1977A88600232548 /* SKBounceAnimation */;
+			targetProxy = 30501CA51977A88600232548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30501CAB1977A88600232548 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30501CAC1977A88600232548 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30501CB01977A88600232548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30501CB11977A88600232548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30501CB31977A88600232548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SKBounceAnimation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKBounceAnimation/SKBounceAnimation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		30501CB41977A88600232548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SKBounceAnimation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKBounceAnimation/SKBounceAnimation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30501CB61977A88600232548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKBounceAnimation/SKBounceAnimation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SKBounceAnimationTests/SKBounceAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30501CB71977A88600232548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKBounceAnimation/SKBounceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "SKBounceAnimationTests/SKBounceAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		30501CBD1977A8C400232548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30501CBE1977A8C400232548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30501C8A1977A88600232548 /* Build configuration list for PBXProject "SKBounceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30501CB01977A88600232548 /* Debug */,
+				30501CB11977A88600232548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30501CB21977A88600232548 /* Build configuration list for PBXNativeTarget "SKBounceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30501CB31977A88600232548 /* Debug */,
+				30501CB41977A88600232548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30501CB51977A88600232548 /* Build configuration list for PBXNativeTarget "SKBounceAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30501CB61977A88600232548 /* Debug */,
+				30501CB71977A88600232548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30501CBC1977A8C400232548 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30501CBD1977A8C400232548 /* Debug */,
+				30501CBE1977A8C400232548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30501C871977A88600232548 /* Project object */;
+}

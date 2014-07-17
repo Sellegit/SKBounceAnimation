@@ -252,7 +252,7 @@
 				CLASSPREFIX = SK;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 347F5D7E158BA4840058BC21 /* Build configuration list for PBXProject "SKBounceAnimation" */;
+			buildConfigurationList = 347F5D7E158BA4840058BC21 /* Build configuration list for PBXProject "SKBounceAnimationExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -482,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		347F5D7E158BA4840058BC21 /* Build configuration list for PBXProject "SKBounceAnimation" */ = {
+		347F5D7E158BA4840058BC21 /* Build configuration list for PBXProject "SKBounceAnimationExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				347F5DB5158BA4840058BC21 /* Debug */,
